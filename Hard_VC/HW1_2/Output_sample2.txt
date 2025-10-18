@@ -1,0 +1,126 @@
+==== HALLWAY SIMULATION (monitor + wait/notify) ====
+Viewers are always in the hallway until dirt is seen.
+On dirt (20% chance), all viewers evacuate and a cleaner is summoned.
+
+✅ Viewer-0 ENTERED hallway | viewersIn=1
+✅ Viewer-5 ENTERED hallway | viewersIn=2
+✅ Viewer-4 ENTERED hallway | viewersIn=3
+✅ Viewer-3 ENTERED hallway | viewersIn=4
+✅ Viewer-2 ENTERED hallway | viewersIn=5
+✅ Viewer-1 ENTERED hallway | viewersIn=6
+⚠️  Viewer-5 saw DIRT! Summoning cleaner. Evacuate viewers!
+🚪 Viewer-5 EXITED to waiting queue | viewersIn=5 | waitingViewers=1
+⚠️  Viewer-1 also noticed dirt. Joining the waiting queue.
+🚪 Viewer-1 EXITED to waiting queue | viewersIn=4 | waitingViewers=2
+⚠️  Viewer-2 also noticed dirt. Joining the waiting queue.
+🚪 Viewer-2 EXITED to waiting queue | viewersIn=3 | waitingViewers=3
+⚠️  Viewer-3 also noticed dirt. Joining the waiting queue.
+🚪 Viewer-3 EXITED to waiting queue | viewersIn=2 | waitingViewers=4
+⚠️  Viewer-0 also noticed dirt. Joining the waiting queue.
+🚪 Viewer-0 EXITED to waiting queue | viewersIn=1 | waitingViewers=5
+⚠️  Viewer-4 also noticed dirt. Joining the waiting queue.
+🚪 Viewer-4 EXITED to waiting queue | viewersIn=0 | waitingViewers=6
+🧹 Cleaner ENTERED to clean (exclusive).
+✨ Cleaner FINISHED cleaning. Hallway is clear.
+🔙 Viewer-4 RE-ENTERED after cleaning | viewersIn=1 | waitingViewers=5
+🔙 Viewer-1 RE-ENTERED after cleaning | viewersIn=2 | waitingViewers=4
+🔙 Viewer-2 RE-ENTERED after cleaning | viewersIn=3 | waitingViewers=3
+🔙 Viewer-3 RE-ENTERED after cleaning | viewersIn=4 | waitingViewers=2
+🔙 Viewer-0 RE-ENTERED after cleaning | viewersIn=5 | waitingViewers=1
+🔙 Viewer-5 RE-ENTERED after cleaning | viewersIn=6 | waitingViewers=0
+⚠️  Viewer-3 saw DIRT! Summoning cleaner. Evacuate viewers!
+🚪 Viewer-3 EXITED to waiting queue | viewersIn=5 | waitingViewers=1
+⚠️  Viewer-1 also noticed dirt. Joining the waiting queue.
+🚪 Viewer-1 EXITED to waiting queue | viewersIn=4 | waitingViewers=2
+⚠️  Viewer-4 also noticed dirt. Joining the waiting queue.
+🚪 Viewer-4 EXITED to waiting queue | viewersIn=3 | waitingViewers=3
+⚠️  Viewer-5 also noticed dirt. Joining the waiting queue.
+🚪 Viewer-5 EXITED to waiting queue | viewersIn=2 | waitingViewers=4
+⚠️  Viewer-0 also noticed dirt. Joining the waiting queue.
+🚪 Viewer-0 EXITED to waiting queue | viewersIn=1 | waitingViewers=5
+⚠️  Viewer-2 also noticed dirt. Joining the waiting queue.
+🚪 Viewer-2 EXITED to waiting queue | viewersIn=0 | waitingViewers=6
+🧹 Cleaner ENTERED to clean (exclusive).
+✨ Cleaner FINISHED cleaning. Hallway is clear.
+🔙 Viewer-2 RE-ENTERED after cleaning | viewersIn=1 | waitingViewers=5
+🔙 Viewer-1 RE-ENTERED after cleaning | viewersIn=2 | waitingViewers=4
+🔙 Viewer-4 RE-ENTERED after cleaning | viewersIn=3 | waitingViewers=3
+🔙 Viewer-5 RE-ENTERED after cleaning | viewersIn=4 | waitingViewers=2
+🔙 Viewer-0 RE-ENTERED after cleaning | viewersIn=5 | waitingViewers=1
+🔙 Viewer-3 RE-ENTERED after cleaning | viewersIn=6 | waitingViewers=0
+⚠️  Viewer-5 saw DIRT! Summoning cleaner. Evacuate viewers!
+🚪 Viewer-5 EXITED to waiting queue | viewersIn=5 | waitingViewers=1
+⚠️  Viewer-4 also noticed dirt. Joining the waiting queue.
+🚪 Viewer-4 EXITED to waiting queue | viewersIn=4 | waitingViewers=2
+⚠️  Viewer-1 also noticed dirt. Joining the waiting queue.
+🚪 Viewer-1 EXITED to waiting queue | viewersIn=3 | waitingViewers=3
+⚠️  Viewer-0 also noticed dirt. Joining the waiting queue.
+🚪 Viewer-0 EXITED to waiting queue | viewersIn=2 | waitingViewers=4
+⚠️  Viewer-3 also noticed dirt. Joining the waiting queue.
+🚪 Viewer-3 EXITED to waiting queue | viewersIn=1 | waitingViewers=5
+⚠️  Viewer-2 also noticed dirt. Joining the waiting queue.
+🚪 Viewer-2 EXITED to waiting queue | viewersIn=0 | waitingViewers=6
+🧹 Cleaner ENTERED to clean (exclusive).
+✨ Cleaner FINISHED cleaning. Hallway is clear.
+🔙 Viewer-2 RE-ENTERED after cleaning | viewersIn=1 | waitingViewers=5
+🔙 Viewer-4 RE-ENTERED after cleaning | viewersIn=2 | waitingViewers=4
+🔙 Viewer-1 RE-ENTERED after cleaning | viewersIn=3 | waitingViewers=3
+🔙 Viewer-0 RE-ENTERED after cleaning | viewersIn=4 | waitingViewers=2
+🔙 Viewer-3 RE-ENTERED after cleaning | viewersIn=5 | waitingViewers=1
+🔙 Viewer-5 RE-ENTERED after cleaning | viewersIn=6 | waitingViewers=0
+⚠️  Viewer-0 saw DIRT! Summoning cleaner. Evacuate viewers!
+🚪 Viewer-0 EXITED to waiting queue | viewersIn=5 | waitingViewers=1
+⚠️  Viewer-3 also noticed dirt. Joining the waiting queue.
+🚪 Viewer-3 EXITED to waiting queue | viewersIn=4 | waitingViewers=2
+⚠️  Viewer-1 also noticed dirt. Joining the waiting queue.
+🚪 Viewer-1 EXITED to waiting queue | viewersIn=3 | waitingViewers=3
+⚠️  Viewer-4 also noticed dirt. Joining the waiting queue.
+🚪 Viewer-4 EXITED to waiting queue | viewersIn=2 | waitingViewers=4
+⚠️  Viewer-5 also noticed dirt. Joining the waiting queue.
+🚪 Viewer-5 EXITED to waiting queue | viewersIn=1 | waitingViewers=5
+⚠️  Viewer-2 also noticed dirt. Joining the waiting queue.
+🚪 Viewer-2 EXITED to waiting queue | viewersIn=0 | waitingViewers=6
+🧹 Cleaner ENTERED to clean (exclusive).
+✨ Cleaner FINISHED cleaning. Hallway is clear.
+🔙 Viewer-2 RE-ENTERED after cleaning | viewersIn=1 | waitingViewers=5
+🔙 Viewer-3 RE-ENTERED after cleaning | viewersIn=2 | waitingViewers=4
+🔙 Viewer-1 RE-ENTERED after cleaning | viewersIn=3 | waitingViewers=3
+🔙 Viewer-4 RE-ENTERED after cleaning | viewersIn=4 | waitingViewers=2
+🔙 Viewer-5 RE-ENTERED after cleaning | viewersIn=5 | waitingViewers=1
+🔙 Viewer-0 RE-ENTERED after cleaning | viewersIn=6 | waitingViewers=0
+👋 Viewer-2 DONE for demo | viewersIn=5
+👋 Viewer-4 DONE for demo | viewersIn=4
+⚠️  Viewer-0 saw DIRT! Summoning cleaner. Evacuate viewers!
+🚪 Viewer-0 EXITED to waiting queue | viewersIn=3 | waitingViewers=1
+⚠️  Viewer-5 also noticed dirt. Joining the waiting queue.
+🚪 Viewer-5 EXITED to waiting queue | viewersIn=2 | waitingViewers=2
+⚠️  Viewer-3 also noticed dirt. Joining the waiting queue.
+🚪 Viewer-3 EXITED to waiting queue | viewersIn=1 | waitingViewers=3
+⚠️  Viewer-1 also noticed dirt. Joining the waiting queue.
+🚪 Viewer-1 EXITED to waiting queue | viewersIn=0 | waitingViewers=4
+🧹 Cleaner ENTERED to clean (exclusive).
+✨ Cleaner FINISHED cleaning. Hallway is clear.
+🔙 Viewer-1 RE-ENTERED after cleaning | viewersIn=1 | waitingViewers=3
+🔙 Viewer-5 RE-ENTERED after cleaning | viewersIn=2 | waitingViewers=2
+🔙 Viewer-3 RE-ENTERED after cleaning | viewersIn=3 | waitingViewers=1
+🔙 Viewer-0 RE-ENTERED after cleaning | viewersIn=4 | waitingViewers=0
+👋 Viewer-0 DONE for demo | viewersIn=3
+⚠️  Viewer-3 saw DIRT! Summoning cleaner. Evacuate viewers!
+🚪 Viewer-3 EXITED to waiting queue | viewersIn=2 | waitingViewers=1
+👋 Viewer-1 DONE for demo | viewersIn=1
+⚠️  Viewer-5 also noticed dirt. Joining the waiting queue.
+🚪 Viewer-5 EXITED to waiting queue | viewersIn=0 | waitingViewers=2
+🧹 Cleaner ENTERED to clean (exclusive).
+✨ Cleaner FINISHED cleaning. Hallway is clear.
+🔙 Viewer-5 RE-ENTERED after cleaning | viewersIn=1 | waitingViewers=1
+🔙 Viewer-3 RE-ENTERED after cleaning | viewersIn=2 | waitingViewers=0
+👋 Viewer-3 DONE for demo | viewersIn=1
+⚠️  Viewer-5 saw DIRT! Summoning cleaner. Evacuate viewers!
+🚪 Viewer-5 EXITED to waiting queue | viewersIn=0 | waitingViewers=1
+🧹 Cleaner ENTERED to clean (exclusive).
+✨ Cleaner FINISHED cleaning. Hallway is clear.
+🔙 Viewer-5 RE-ENTERED after cleaning | viewersIn=1 | waitingViewers=0
+👋 Viewer-5 DONE for demo | viewersIn=0
+🛑 Cleaner exiting.
+
+Process finished with exit code 0

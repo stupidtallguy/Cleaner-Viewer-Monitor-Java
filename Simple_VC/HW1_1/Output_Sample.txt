@@ -1,0 +1,42 @@
+This is a copy paste from output.
+
+Viewers may share the hallway; cleaners need exclusive access.
+
+Viewer-30 wants to ENTER hallway (viewer)
+✅ Viewer-30 ENTERED hallway | viewersIn=1
+Viewer-38 wants to ENTER hallway (viewer)
+✅ Viewer-38 ENTERED hallway | viewersIn=2
+Viewer-31 wants to ENTER hallway (viewer)
+✅ Viewer-31 ENTERED hallway | viewersIn=3
+Viewer-37 wants to ENTER hallway (viewer)
+✅ Viewer-37 ENTERED hallway | viewersIn=4
+Cleaner-35 wants to ENTER hallway (cleaner)
+Viewer-34 wants to ENTER hallway (viewer)
+Viewer-41 wants to ENTER hallway (viewer)
+Viewer-33 wants to ENTER hallway (viewer)
+Viewer-32 wants to ENTER hallway (viewer)
+Viewer-40 wants to ENTER hallway (viewer)
+Viewer-39 wants to ENTER hallway (viewer)
+Cleaner-36 wants to ENTER hallway (cleaner)
+🚪 Viewer-37 EXITED hallway | viewersIn=3
+🚪 Viewer-30 EXITED hallway | viewersIn=2
+🚪 Viewer-38 EXITED hallway | viewersIn=1
+🚪 Viewer-31 EXITED hallway | viewersIn=0
+🧹 Cleaner-35 ENTERED hallway to clean!
+✨ Cleaner-35 EXITED hallway (cleaning done)
+🧹 Cleaner-36 ENTERED hallway to clean!
+✨ Cleaner-36 EXITED hallway (cleaning done)
+✅ Viewer-34 ENTERED hallway | viewersIn=1
+✅ Viewer-39 ENTERED hallway | viewersIn=2
+✅ Viewer-40 ENTERED hallway | viewersIn=3
+✅ Viewer-32 ENTERED hallway | viewersIn=4
+✅ Viewer-33 ENTERED hallway | viewersIn=5
+✅ Viewer-41 ENTERED hallway | viewersIn=6
+🚪 Viewer-33 EXITED hallway | viewersIn=5
+🚪 Viewer-41 EXITED hallway | viewersIn=4
+🚪 Viewer-34 EXITED hallway | viewersIn=3
+🚪 Viewer-40 EXITED hallway | viewersIn=2
+🚪 Viewer-32 EXITED hallway | viewersIn=1
+🚪 Viewer-39 EXITED hallway | viewersIn=0
+
+Process finished with exit code 0
